@@ -192,10 +192,11 @@
             // 
             this.label4.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label4, BunifuAnimatorNS.DecorationType.None);
+            this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label4.Location = new System.Drawing.Point(6, 290);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 23);
+            this.label4.Size = new System.Drawing.Size(56, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Type";
             // 
@@ -203,7 +204,7 @@
             // 
             this.txt_price.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txt_price, BunifuAnimatorNS.DecorationType.None);
-            this.txt_price.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_price.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_price.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_price.HintForeColor = System.Drawing.Color.Empty;
             this.txt_price.HintText = "";
@@ -211,22 +212,23 @@
             this.txt_price.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_price.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_price.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_price.LineThickness = 4;
+            this.txt_price.LineThickness = 6;
             this.txt_price.Location = new System.Drawing.Point(0, 234);
             this.txt_price.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(336, 32);
             this.txt_price.TabIndex = 5;
-            this.txt_price.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_price.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label3, BunifuAnimatorNS.DecorationType.None);
+            this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label3.Location = new System.Drawing.Point(6, 206);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 23);
+            this.label3.Size = new System.Drawing.Size(57, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Price";
             // 
@@ -234,7 +236,7 @@
             // 
             this.txt_author.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txt_author, BunifuAnimatorNS.DecorationType.None);
-            this.txt_author.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_author.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_author.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_author.HintForeColor = System.Drawing.Color.Empty;
             this.txt_author.HintText = "";
@@ -242,22 +244,23 @@
             this.txt_author.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_author.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_author.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_author.LineThickness = 4;
+            this.txt_author.LineThickness = 6;
             this.txt_author.Location = new System.Drawing.Point(0, 155);
             this.txt_author.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txt_author.Name = "txt_author";
             this.txt_author.Size = new System.Drawing.Size(336, 32);
             this.txt_author.TabIndex = 3;
-            this.txt_author.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_author.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label2.Location = new System.Drawing.Point(6, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 23);
+            this.label2.Size = new System.Drawing.Size(75, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "Author";
             // 
@@ -265,7 +268,7 @@
             // 
             this.txt_name.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txt_name, BunifuAnimatorNS.DecorationType.None);
-            this.txt_name.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_name.HintForeColor = System.Drawing.Color.Empty;
             this.txt_name.HintText = "";
@@ -273,22 +276,23 @@
             this.txt_name.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_name.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_name.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_name.LineThickness = 4;
+            this.txt_name.LineThickness = 6;
             this.txt_name.Location = new System.Drawing.Point(0, 70);
             this.txt_name.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(336, 32);
             this.txt_name.TabIndex = 1;
-            this.txt_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Location = new System.Drawing.Point(6, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 23);
+            this.label1.Size = new System.Drawing.Size(180, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name of the book";
             this.label1.Click += new System.EventHandler(this.label1_Click);
