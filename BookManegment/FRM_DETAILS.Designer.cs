@@ -41,6 +41,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_cat = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cover)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
@@ -49,10 +53,11 @@
             // 
             this.txt_date.BackColor = System.Drawing.Color.SeaGreen;
             this.txt_date.BorderRadius = 0;
+            this.txt_date.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_date.ForeColor = System.Drawing.Color.White;
             this.txt_date.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.txt_date.FormatCustom = null;
-            this.txt_date.Location = new System.Drawing.Point(806, 163);
+            this.txt_date.Location = new System.Drawing.Point(742, 59);
             this.txt_date.Margin = new System.Windows.Forms.Padding(13, 16, 13, 16);
             this.txt_date.Name = "txt_date";
             this.txt_date.Size = new System.Drawing.Size(408, 57);
@@ -64,7 +69,7 @@
             this.txt_rate.BackColor = System.Drawing.Color.Transparent;
             this.txt_rate.Font = new System.Drawing.Font("Arial Narrow", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_rate.ForeColor = System.Drawing.Color.SeaGreen;
-            this.txt_rate.Location = new System.Drawing.Point(806, 267);
+            this.txt_rate.Location = new System.Drawing.Point(742, 163);
             this.txt_rate.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txt_rate.Name = "txt_rate";
             this.txt_rate.Size = new System.Drawing.Size(452, 88);
@@ -74,7 +79,7 @@
             // cover
             // 
             this.cover.Image = ((System.Drawing.Image)(resources.GetObject("cover.Image")));
-            this.cover.Location = new System.Drawing.Point(837, 395);
+            this.cover.Location = new System.Drawing.Point(773, 291);
             this.cover.Margin = new System.Windows.Forms.Padding(5);
             this.cover.Name = "cover";
             this.cover.Size = new System.Drawing.Size(359, 316);
@@ -97,16 +102,16 @@
             // txt_name
             // 
             this.txt_name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_name.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_name.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txt_name.HintForeColor = System.Drawing.Color.Empty;
             this.txt_name.HintText = "";
             this.txt_name.isPassword = false;
             this.txt_name.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_name.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_name.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_name.LineThickness = 4;
-            this.txt_name.Location = new System.Drawing.Point(113, 115);
+            this.txt_name.LineThickness = 6;
+            this.txt_name.Location = new System.Drawing.Point(115, 117);
             this.txt_name.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(474, 57);
@@ -128,16 +133,16 @@
             // txt_author
             // 
             this.txt_author.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_author.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_author.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_author.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_author.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txt_author.HintForeColor = System.Drawing.Color.Empty;
             this.txt_author.HintText = "";
             this.txt_author.isPassword = false;
             this.txt_author.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_author.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_author.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_author.LineThickness = 4;
-            this.txt_author.Location = new System.Drawing.Point(113, 250);
+            this.txt_author.LineThickness = 6;
+            this.txt_author.Location = new System.Drawing.Point(114, 252);
             this.txt_author.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txt_author.Name = "txt_author";
             this.txt_author.Size = new System.Drawing.Size(474, 57);
@@ -159,16 +164,16 @@
             // txt_price
             // 
             this.txt_price.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_price.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_price.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_price.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_price.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txt_price.HintForeColor = System.Drawing.Color.Empty;
             this.txt_price.HintText = "";
             this.txt_price.isPassword = false;
             this.txt_price.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_price.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_price.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_price.LineThickness = 4;
-            this.txt_price.Location = new System.Drawing.Point(113, 394);
+            this.txt_price.LineThickness = 6;
+            this.txt_price.Location = new System.Drawing.Point(113, 386);
             this.txt_price.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(474, 57);
@@ -190,15 +195,15 @@
             // txt_cat
             // 
             this.txt_cat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_cat.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_cat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_cat.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txt_cat.HintForeColor = System.Drawing.Color.Empty;
             this.txt_cat.HintText = "";
             this.txt_cat.isPassword = false;
             this.txt_cat.LineFocusedColor = System.Drawing.Color.Blue;
             this.txt_cat.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_cat.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txt_cat.LineThickness = 4;
+            this.txt_cat.LineThickness = 6;
             this.txt_cat.Location = new System.Drawing.Point(209, 562);
             this.txt_cat.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txt_cat.Name = "txt_cat";
@@ -220,6 +225,54 @@
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lucida Fax", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label5.Location = new System.Drawing.Point(109, 83);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(288, 33);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Name of the book";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Lucida Fax", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label6.Location = new System.Drawing.Point(109, 218);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(122, 33);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Author";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Lucida Fax", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label7.Location = new System.Drawing.Point(109, 352);
+            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 33);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Price";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Lucida Fax", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label8.Location = new System.Drawing.Point(108, 582);
+            this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(91, 33);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Type";
+            // 
             // FRM_DETAILS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -228,12 +281,16 @@
             this.ClientSize = new System.Drawing.Size(1322, 749);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.txt_cat);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_price);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_author);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_name);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cover);
             this.Controls.Add(this.txt_rate);
@@ -266,5 +323,9 @@
         private System.Windows.Forms.Label label4;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txt_cat;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

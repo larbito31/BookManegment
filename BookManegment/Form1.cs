@@ -115,10 +115,10 @@ namespace BookManegment
                
                 cmd.CommandText = " SELECT Tittel, Auther, Price, Cat,Date,Rate FROM TbBooks where ID=@ID";
                 cmd.Parameters.AddWithValue("@ID", Convert.ToInt16(dataGridView1.CurrentRow.Cells[0].Value));
-                MessageBox.Show(Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value));
+                
                 con.Close();
                 con.Open();
-                MessageBox.Show(Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value));
+                
                 var rd = cmd.ExecuteReader();
                 while (rd.Read())
                 {
